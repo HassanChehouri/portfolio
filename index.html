@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="" name=""> 
+  <meta name="msapplication-tap-highlight" content="no">
+  <title>Portfolio Hassan</title>  
+  <link href="./style.css" rel="stylesheet"></head>
+
+<script>
+ 
+   function change_pictures(index){
+   
+	  if(index ==0){
+		  document.getElementById("slidechangek1").src = "./assets/images/1-a.png";	  
+		  document.getElementById("slidechangek2").src = "./assets/images/1-b.png";
+		  document.getElementById("slidechangek3").src = "./assets/images/1-c.png";		  
+		  document.getElementById("titre1").innerText = "Night City";
+		  document.getElementById("titre2").innerText = "Jour de la Terre";
+		  document.getElementById("titre3").innerText = "Amélie";
+		  document.getElementById("desc1").innerText = "Night City est un montage vidéo réalisé entièrement sur After Effects, il représente une scène d'introduction à une série entièrement fictive.";
+		  document.getElementById("desc2").innerText = "Le montage Jour de la Terre est un montage entièrement filmé et monté sur Premiere Pro, le message derrière ce montage est de sensibiliser le monde à ne pas poluer son environnement.";
+		  document.getElementById("desc3").innerText = "Amélie est un projet dont le but est de recréer une bande d'annonce d'un film avec certains clip de celui-ci.";
+		  
+	  }else if (index ==1){
+		  document.getElementById("slidechangek1").src = "./assets/images/2-a.jpg";	  
+		  document.getElementById("slidechangek2").src = "./assets/images/2-b.png";
+		  document.getElementById("slidechangek3").src = "./assets/images/2-c.png";
+		  document.getElementById("titre1").innerText = "L'art Fictif";
+		  document.getElementById("titre2").innerText = "Eventbrite";
+		  document.getElementById("titre3").innerText = "Le Visionnaire";
+		  document.getElementById("desc1").innerText = "Le Projet de l'art Fictif est un projet dont l'imagination et la créativité sont très mise en valeur. Ce projet à été entièrement construit sur Photoshop.";
+		  document.getElementById("desc2").innerText = "Le projet Eventbrite est un projet dont j'ai du refaire une maquette d'un site web qui n'étais pas mis à jour depuis plusieurs mois. Ce projet à été entièrement réalisé sur Pohotshop.";
+		  document.getElementById("desc3").innerText = "Le Visionnaire est un Logo d'une clinique optométrie entièrement faite sur Illustrator.";
+	  } else if (index ==2){
+		  document.getElementById("slidechangek1").src = "./assets/images/3-a.jpg";	  
+		  document.getElementById("slidechangek2").src = "./assets/images/3-b.jpg";
+		  document.getElementById("slidechangek3").src = "./assets/images/3-c.jpg";
+		  document.getElementById("titre1").innerText = "Carcade";
+		  document.getElementById("titre2").innerText = "Frontière";
+		  document.getElementById("titre3").innerText = "Chutes";
+		  document.getElementById("desc1").innerText = "Ce projet est un des contrat que j'ai recu de la part d'une compagnie d'auto de location de luxe à montréal sous le nom de Carcade. J'ai du prendre plusieurs photo de leurs inventaires de voitures et ensuite les retoucher sur Photoshop pour les publier sur leurs site web.";
+		  document.getElementById("desc2").innerText = "Ce projet est un projet personnel que je me suis fixé pour agrandir la diversificatrion des photo profesionnels que je prend.";
+		  document.getElementById("desc3").innerText = "Ce projet est un projet personnel que je me suis fixé pour agrandir la diversificatrion des photo profesionnels que je prend.";
+	  }
+	  
+	}  
+
+</script>
+
+<body class="">
+
+
+<div class="background-color-layer arriere-plan"></div>
+<main class="content-wrapper">
+  <header class="white-text-container section-container">
+    <div class="text-center">
+      <h1>Hassan Chehouri </h1>
+      <p>Création Médias Interactifs</p>      
+    </div>
+  </header>
+  
+ <div class="container">
+   <div class="row">
+     <div class="col-xs-12">
+
+        <div class="card">
+          <div class="card-block">
+            <h2>À propos</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <p><img src="./assets/images/img-01.jpg" class="img-responsive" alt=""></p>
+              </div>
+              <div class="col-md-8 apropos">
+			<br/>
+              <p >Je suis un étudiant en multimédia qui est passionné par la création de médias interactifs.
+			  <p>La précision et la qualité de l'organisation sont des termes qui définissent mes projets
+			  ce qui me rend unique dans mon travail professionnel.</p>
+			  <p>J'effectue plusieurs montages ou prises pour des sites professionnels.</p>
+			  <p>Je suis très passionné  par les médias interactifs.</p>
+         
+              </div>
+            </div>
+          </div>
+        </div>
+
+		
+		<div class="card">
+          <div class="card-block">
+            <h2>Formation</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="education-experience">
+                  <small class="date">2021-2018</small>
+                  <h3 class="h5 date-title">Technique  Multimédia</h3>
+                  <p>Collège de Maisonneuve</p>
+                </div>
+                
+              </div>
+              
+              <div class="col-md-4">
+                <div class="education-experience">
+                  <small class="date">2018-2013</small>
+                   <h3 class="h5 date-title">Études Secondaires</h3>
+                  <p>Collège Notre-Dame</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		
+        <div class="card">
+          <div class="card-block">
+            <h2>Projects</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./assets/images/img-02.jpg" class="img-responsive" alt="" onclick="change_pictures(0)">
+                <h3 class="h5">Montage Vidéo</h3>
+              
+              </div>
+              <div class="col-md-4">
+                <img src="./assets/images/img-03.jpg" class="img-responsive" alt="" onclick="change_pictures(1)">
+                <h3 class="h5">Design</h3>
+                
+              </div>
+              <div class="col-md-4">
+                <img src="./assets/images/img-04.jpg" class="img-responsive" alt="" onclick="change_pictures(2)">
+                <h3 class="h5">Photographie</h3>
+               
+              </div>
+            </div>
+          </div>
+		  
+		  
+		 
+		 <div class="card-block">
+		  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            
+
+          
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="./assets/images/1-a.png" id = "slidechangek1" class="img-responsive" alt="...">
+                <div class="carousel-caption">
+                  <h3 class="h5" id="titre1">Night City</h3>
+                  <p id="desc1">Night City est un montage vidéo réalisé entièrement sur After Effects, il représente une scène d'introduction à une série entièrement fictive.</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/images/1-b.png" id = "slidechangek2" class="img-responsive" alt="...">
+                <div class="carousel-caption">
+                  <h3 class="h5" id="titre2">Jour de la Terre</h3>
+                  <p id="desc2">Le montage Jour de la Terre est un montage entièrement filmé et monté sur Premiere Pro, le message derrière ce montage est de sensibiliser le monde à ne pas poluer son environnement.</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="./assets/images/1-c.png" id = "slidechangek3" class="img-responsive" alt="...">
+                <div class="carousel-caption">
+                  <h3 class="h5" id="titre3">Amélie</h3>
+                  <p id="desc3">Amélie est un projet dont le but est de recréer une bande d'annonce d'un film avec certains clip de celui-ci.</p>
+                </div>
+              </div>
+            </div>
+
+        
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+          </div>
+		  </div> 
+		  
+	
+        </div>
+
+        
+        
+       
+	     <div class="card">
+          <div class="card-block">
+            <h2>Langues</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="language-experience">
+                  <h3 class="h5">Français  <small>Courant</small></h3>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="language-experience">
+                  <h3 class="h5">Anglais  <small>Courant</small></h3>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="language-experience">
+                  <h3 class="h5">Arabe  <small>Courant</small></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+        <div class="card">
+          <div class="card-block">
+            <h2>Contact</h2>
+            <form action="" class="">
+              <div class="form-group">
+                <input type="email" class="form-control" id="Email" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="Sujet" placeholder="sujet">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Entrer votre message"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class=" btn btn-primary">Envoyer</button>
+              </div> 
+            </form>
+          </div>
+        </div>
+       
+     </div>
+   </div>
+ </div>
+
+</main>
+<footer class="footer-container white-text-container text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+      <p>
+          <a class="fa-icon fa-icon-2x" href="https://facebook.com/" title="">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a class="fa-icon fa-icon-2x" href="https://twitter.com/" title="">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a class="fa-icon fa-icon-2x" href="mailto:chehouri12@gmail.com" title="">
+            <i class="fa fa-google"></i>
+          </a>
+          <a class="fa-icon fa-icon-2x" href="https://www.linkedin.com/" title="">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a class="fa-icon fa-icon-2x" href="tel:+15142447374" title="">
+            <i class="fa fa-phone"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="./slide.js"></script></body>
+
+</html>
