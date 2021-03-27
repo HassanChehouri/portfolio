@@ -36,5 +36,38 @@ function change_pictures(index){
         document.getElementById("desc2").innerText = "Ce projet est un projet personnel que je me suis fixé pour agrandir la diversificatrion des photo profesionnels que je prend.";
         document.getElementById("desc3").innerText = "Ce projet est un projet personnel que je me suis fixé pour agrandir la diversificatrion des photo profesionnels que je prend.";
     }
+	else if (index ==3){
+        document.getElementById("slidechangek1").src = "./assets/images/4-a.png";	  
+        document.getElementById("slidechangek2").src = "./assets/images/4-b.png";
+        document.getElementById("slidechangek3").src = "./assets/images/4-c.png";
+        document.getElementById("titre1").innerText = "3D1";
+        document.getElementById("titre2").innerText = "3D2";
+        document.getElementById("titre3").innerText = "3D3";
+        document.getElementById("desc1").innerText = "3D1 description";
+        document.getElementById("desc2").innerText = "3D2 description";
+        document.getElementById("desc3").innerText = "3D3 description";
+    }
+	else if (index ==4){
+        document.getElementById("slidechangek1").src = "./assets/images/5-a.png";	  
+        document.getElementById("slidechangek2").src = "./assets/images/5-b.png";
+        document.getElementById("slidechangek3").src = "./assets/images/5-c.png";
+        document.getElementById("titre1").innerText = "Jeu1";
+        document.getElementById("titre2").innerText = "Jeu2";
+        document.getElementById("titre3").innerText = "Jeu3";
+        document.getElementById("desc1").innerText = "Jeu1 description";
+        document.getElementById("desc2").innerText = "Jeu2 description";
+        document.getElementById("desc3").innerText = "Jeu3 description";
+    }
+	else if (index ==5){
+        document.getElementById("slidechangek1").src = "./assets/images/6-a.png";	  
+        document.getElementById("slidechangek2").src = "./assets/images/6-b.png";
+        document.getElementById("slidechangek3").src = "./assets/images/6-c.png";
+        document.getElementById("titre1").innerText = "Programmation1";
+        document.getElementById("titre2").innerText = "Programmation2";
+        document.getElementById("titre3").innerText = "Programmation3";
+        document.getElementById("desc1").innerText = "Programmation1 description";
+        document.getElementById("desc2").innerText = "Programmation2 description";
+        document.getElementById("desc3").innerText = "Programmation3 description";
+    }
     
   }  
